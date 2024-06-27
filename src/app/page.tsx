@@ -54,7 +54,7 @@ export default function Index() {
           <span className="text-gray-400 text-sm">
             &copy;{new Date().getFullYear()}&nbsp;
           </span>
-          <a href="https://x.com/thebstar13" className="font-bold hover:underline text-primary text-sm">Made with ❤️ by @thebstar13</a>
+          <a href="https://x.com/thebstar13" target="_blank" className="font-bold hover:underline text-primary text-sm">Made with ❤️ by @thebstar13</a>
         </div>
       </footer>
     </section>
