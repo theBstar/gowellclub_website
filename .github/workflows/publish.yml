@@ -29,9 +29,6 @@ jobs:
         with:
           static_site_generator: next
 
-      - name: Set GitHub Pages URL
-        run: echo "NEXT_PUBLIC_BASE_PATH=${{ github.repository_owner }}.github.io/${{ github.repository }}" >> $GITHUB_ENV
-
       - name: Build with Next.js 🏗️
         run: npx next build
 
