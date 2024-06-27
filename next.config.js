@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
-  basePath: "/gowell.club_website",
+  basePath: "/gowellclub_website",
 };
 
 module.exports = nextConfig;
