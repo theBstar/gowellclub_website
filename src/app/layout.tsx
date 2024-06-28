@@ -1,4 +1,3 @@
-import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import cn from "classnames";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
@@ -8,10 +7,10 @@ import "./globals.css";
 const inter = Roboto({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: `gowell.club - wellness for everyone everyone`,
-  description: `gowell.club is a wellness platform that provides resources for everyone to improve their health and wellness.`,
+  title: `gowell.club - wellness for everyone`,
+  description: `gowell.club is an AI powered wellness club that providing daily workout routines, meal plans, and mental health tips, a chat bot for your cravings and a community for your support. Lose weight wiht our dedicated AI wellness coach.`,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    images: ['/assets/homepage.png'],
   },
 };
 
