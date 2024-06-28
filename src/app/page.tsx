@@ -30,7 +30,7 @@ export default function Index() {
                   Have your own personalised AI wellness coach. Get daily workout routines, meal plans, and mental health tips.
                 </p>
                 <p className="md:text-lg text-neutral-600 dark:text-neutral-300">
-                  Want to loose weight, gain muscle or just want to talk to someone about your carvings? We got you covered.
+                  Want to lose weight, gain muscle or just want to talk to someone about your carvings? We got you covered.
                 </p>
               </div>
               <JoinButton />
