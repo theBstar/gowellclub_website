@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: `gowell.club - wellness for everyone`,
   description: `gowell.club is an AI powered wellness club that providing daily workout routines, meal plans, and mental health tips, a chat bot for your cravings and a community for your support. Lose weight wiht our dedicated AI wellness coach.`,
   openGraph: {
-    images: ['/assets/homepage.png'],
+    images: ['https://www.gowell.club/assets/homepage.png'],
   },
 };
 
